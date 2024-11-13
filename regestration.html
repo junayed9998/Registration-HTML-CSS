@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan Competition Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h2>Business Plan Competition Registration</h2>
+        <form action="/submit_registration" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="team">Team Name (if any):</label>
+            <input type="text" id="team" name="team">
+
+            <label for="businessIdea">Business Idea Summary:</label>
+            <textarea id="businessIdea" name="businessIdea" rows="4" required></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
